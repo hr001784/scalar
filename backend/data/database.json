@@ -4,11 +4,13 @@
       "_id": "1757500760113",
       "name": "Harsha Reddy",
       "email": "hr001784@gmail.com",
-      "password": "$2a$10$UADPHBPSx9uwLqJ3dZFRheQtO39tyd88xSVYz6s4KnXi6aeQlITaC",
+      "password": "$2a$10$4Cbo/uLAXpikoTQ7j/ru5.HsteLQpBT6ooqR2WbzSEDZYYO4MzSca",
       "role": "student",
       "isVerified": true,
       "createdAt": "2025-09-10T10:39:20.113Z",
-      "updatedAt": "2025-09-10T10:39:20.113Z"
+      "updatedAt": "2025-09-10T16:48:58.246Z",
+      "resetPasswordToken": "173f16faee29539d463b4943330e87b91286676f",
+      "resetPasswordExpires": "2025-09-10T17:48:58.246Z"
     },
     {
       "_id": "1757500800000",
