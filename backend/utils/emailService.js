@@ -48,7 +48,7 @@ const sendEmail = async (options) => {
  * @returns {Promise} - Email send result
  */
 const sendVerificationEmail = async (email, name, token) => {
-  const verificationUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/verify-email/${token}`;
+  const verificationUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/verify-email?token=${token}`;
   
   return sendEmail({
     to: email,
@@ -79,7 +79,7 @@ const sendVerificationEmail = async (email, name, token) => {
  * @returns {Promise} - Email send result
  */
 const sendPasswordResetEmail = async (email, name, token) => {
-  const resetUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/reset-password/${token}`;
+  const resetUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/reset-password?token=${token}`;
   
   return sendEmail({
     to: email,

@@ -25,8 +25,15 @@ const ProtectedRoute = ({ children, requiredRole }) => {
   // Check role-based access
   if (requiredRole && user.role !== requiredRole) {
     console.log(`ProtectedRoute - Role mismatch: User role is ${user.role}, required role is ${requiredRole}`);
-    // Redirect to appropriate dashboard based on user's actual role
-    return <Navigate to={user.role === 'admin' ? '/admin' : '/student'} />;
+    
+    // Special case for admin role - check if role is exactly 'admin'
+    if (requiredRole === 'admin' && user.role.toLowerCase() === 'admin') {
+      console.log('ProtectedRoute - Admin role detected despite case mismatch, allowing access');
+      // Allow access despite case mismatch
+    } else {
+      // Redirect to appropriate dashboard based on user's actual role
+      return <Navigate to={user.role.toLowerCase() === 'admin' ? '/admin' : '/student'} />;
+    }
   }
 
   console.log(`ProtectedRoute - Access granted for role: ${user.role}`);
