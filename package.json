@@ -1,0 +1,23 @@
+{
+  "name": "mern-student-management",
+  "version": "1.0.0",
+  "description": "MERN Stack Student Management System with Authentication and Role-based Access",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "authentication",
+    "student-management",
+    "role-based-access"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

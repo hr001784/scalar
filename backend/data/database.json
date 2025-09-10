@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "_id": "1757500760113",
+      "name": "Harsha Reddy",
+      "email": "hr001784@gmail.com",
+      "password": "$2a$10$UADPHBPSx9uwLqJ3dZFRheQtO39tyd88xSVYz6s4KnXi6aeQlITaC",
+      "role": "student",
+      "isVerified": true,
+      "createdAt": "2025-09-10T10:39:20.113Z",
+      "updatedAt": "2025-09-10T10:39:20.113Z"
+    },
+    {
+      "_id": "1757500800000",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "$2a$10$UADPHBPSx9uwLqJ3dZFRheQtO39tyd88xSVYz6s4KnXi6aeQlITaC",
+      "role": "admin",
+      "isVerified": true,
+      "createdAt": "2025-09-10T10:40:00.000Z",
+      "updatedAt": "2025-09-10T10:40:00.000Z"
+    },
+    {
+      "_id": "1757510470347",
+      "name": "Test Admin",
+      "email": "admin@test.com",
+      "password": "$2a$10$QegVrI3oZr7S.SSdqCT.WupxJszar8McnDRZyY7WusHH62DGDIaBK",
+      "role": "admin",
+      "isVerified": true,
+      "createdAt": "2025-09-10T13:21:10.347Z",
+      "updatedAt": "2025-09-10T13:21:10.347Z"
+    },
+    {
+      "_id": "1757510470624",
+      "name": "Test Student",
+      "email": "student@test.com",
+      "password": "$2a$10$kk6HM5DtSYZnZ7eeE/Cmf.kGD7fEXXYsWyP0Jrj1hS4ZbBe1GoY1S",
+      "role": "student",
+      "isVerified": true,
+      "createdAt": "2025-09-10T13:21:10.624Z",
+      "updatedAt": "2025-09-10T13:21:10.624Z"
+    },
+    {
+      "_id": "1757510517711",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "$2a$10$Lo4hFzWkeyxl.01PgPWlMOTBm/5H93/ewbRq5tky5Dblq95bs0QRm",
+      "role": "admin",
+      "isVerified": true,
+      "createdAt": "2025-09-10T13:21:57.711Z",
+      "updatedAt": "2025-09-10T13:21:57.711Z"
+    },
+    {
+      "_id": "1757513224203",
+      "name": "harshareddy",
+      "email": "dragonharsha46@gmail.com",
+      "password": "$2a$10$NITicp1PKQYgaGonLdlkluCvmMsnuZf5gdjsiMUk1oM4cjlTxIEYm",
+      "role": "admin",
+      "isVerified": true,
+      "createdAt": "2025-09-10T14:07:04.203Z",
+      "updatedAt": "2025-09-10T14:07:04.203Z"
+    }
+  ],
+  "students": [
+    {
+      "_id": "1757500801000",
+      "name": "Harsha Reddy",
+      "email": "hr001784@gmail.com",
+      "course": "MERN Bootcamps",
+      "user": "1757500760113",
+      "enrollmentDate": "2025-09-10T10:40:01.000Z",
+      "createdAt": "2025-09-10T10:40:01.000Z",
+      "updatedAt": "2025-09-10T13:05:32.063Z"
+    },
+    {
+      "_id": "1757500802000",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "course": "MERN Bootcamp",
+      "user": "1757500802001",
+      "enrollmentDate": "2025-09-10T10:40:02.000Z",
+      "createdAt": "2025-09-10T10:40:02.000Z",
+      "updatedAt": "2025-09-10T10:40:02.000Z"
+    },
+    {
+      "_id": "1757500803000",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "course": "MERN Bootcamp",
+      "user": "1757500803001",
+      "enrollmentDate": "2025-09-10T10:40:03.000Z",
+      "createdAt": "2025-09-10T10:40:03.000Z",
+      "updatedAt": "2025-09-10T10:40:03.000Z"
+    },
+    {
+      "_id": "1757510471085",
+      "name": "John Doe",
+      "email": "john.doe@university.edu",
+      "course": "Computer Science",
+      "user": "1757510471080",
+      "enrollmentDate": "2025-09-10T13:21:11.085Z",
+      "createdAt": "2025-09-10T13:21:11.085Z",
+      "updatedAt": "2025-09-10T13:21:11.085Z"
+    }
+  ]
+}
